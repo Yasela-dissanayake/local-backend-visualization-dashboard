@@ -1,5 +1,5 @@
 {
-  "name": "local-backend-visualization-dashboard",
+  "name": "backend-analyzer",
   "version": "1.0.0",
   "description": "Scan and visualize any backend architecture - routes, webhooks, cron jobs, and external integrations",
   "main": "scanner.js",
