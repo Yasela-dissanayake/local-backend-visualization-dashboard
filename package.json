@@ -1,0 +1,25 @@
+{
+  "name": "local-backend-visualization-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasela-dissanayake/local-backend-visualization-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yasela-dissanayake/local-backend-visualization-dashboard/issues"
+  },
+  "homepage": "https://github.com/Yasela-dissanayake/local-backend-visualization-dashboard#readme",
+  "dependencies": {
+    "@babel/parser": "^7.28.5",
+    "@babel/traverse": "^7.28.5"
+  }
+}
