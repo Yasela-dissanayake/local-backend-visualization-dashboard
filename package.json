@@ -1,18 +1,30 @@
 {
   "name": "local-backend-visualization-dashboard",
   "version": "1.0.0",
-  "description": "",
-  "main": "cli.js",
+  "description": "Scan and visualize any backend architecture - routes, webhooks, cron jobs, and external integrations",
+  "main": "scanner.js",
+  "bin": {
+    "backend-analyzer": "./cli.js",
+    "ba": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "backend",
+    "analyzer",
+    "architecture",
+    "documentation",
+    "visualization",
+    "developer-tools",
+    "onboarding"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yasela-dissanayake/local-backend-visualization-dashboard.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Yasela Dissanayake",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Yasela-dissanayake/local-backend-visualization-dashboard/issues"
@@ -21,5 +33,8 @@
   "dependencies": {
     "@babel/parser": "^7.28.5",
     "@babel/traverse": "^7.28.5"
+  },
+   "engines": {
+    "node": ">=14.0.0"
   }
 }
